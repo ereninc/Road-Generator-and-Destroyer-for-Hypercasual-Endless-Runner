@@ -7,7 +7,7 @@ public class DestroyRoad : MonoBehaviour
     Rigidbody fizik;
     [SerializeField] private float Hiz = 10;
     
-	void Start()
+    void Start()
     {
         fizik = GetComponent<Rigidbody>();
     }
